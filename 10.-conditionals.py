@@ -6,6 +6,7 @@
 # 3 == 4 retornará FALSE
 
 x = 40
+y = 80
 
 if x < 30:
     print("x is less than 30")
@@ -40,6 +41,8 @@ else:
 
 print('******************************************')
 
+print('Ejemplo con las variables name y lastname')
+
 name = "Ryan"
 lastname = "Carter"
 
@@ -54,10 +57,19 @@ else:
 
 print('******************************************')
 
-# if x > 2 and if x < 10:
+print('Otro Ejemplo pero con X que en este caso, tiene el valor 40:')
+print(' ')
+
+if x > 2 and x <= 10:
+    print("x is greater than two and less than or equal to ten", "x es igual a", x)
+elif x == 40:
+    print("La condición no se cumple, solo imprimimos el valor de X:", x)
 
 
-# if x > 2 and or x < 10:
+print('******************************************')
 
+print('Otro Ejemplo pero con X y Y que en este caso, tiene el valor 40:')
+print(' ')
 
-# if x > 2 and if x < 10:
+if x > 2 and y == 80:
+    print("la condición x mayor a dos e y igual a ochenta, se cumple")
